@@ -1,0 +1,10 @@
+<md-content>
+  <md-card ng-repeat="repo in repos">
+      <md-progress-circular class="md-default-theme" md-mode="indeterminate" ng-if="isLoaded"></md-progress-circular>
+      <img src="img/{{repo.name}}.png">
+      <md-card-content>
+        <h2>{{repo.name}}</h2>
+        <a href="http://andela-oogunwa.github.io/{{repo.name}}" target="_blank" style="color:black">Click to View</a>
+      </md-card-content>
+  </md-card>
+</md-content>

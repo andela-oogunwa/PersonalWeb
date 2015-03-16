@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html ng-app='portfolioApp'>
+<head>
+  <title>Personal Website</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/vendor/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/vendor/fancybox-thumbs.css">
+  <link rel="stylesheet" type="text/css" href="css/vendor/fancybox-buttons.css">
+  <link rel="stylesheet" type="text/css" href="css/vendor/fancybox.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/vendor/animate.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.min.css"/> 
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/vendor/main.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body ng-controller='portfolioController'>
+  <md-toolbar class ="md-default-theme">
+    <div class="md-toolbar-tools">
+      <span class="md-flex"><a href="#/" class="logo-text">Kemi's Portfolio</a></span>
+      <div class="md-toolbar-item md-tools docs-tools" layout="column" layout-gt-md="row">
+        <a class="md-button md-default-theme" href="#/">Home</a>
+        <a class="md-button md-default-theme" href="#portfolio">Portfolio</a>
+        <a class="md-button md-default-theme" href="#about">About</a>
+        <a class="md-button md-default-theme" href="#contact">Contact</a>
+      </div>
+    </div>
+  </md-toolbar>  
+
+  <!-- <div layout="column" layout-align="bottom center"></div> -->
+
+
+  
+  <div ng-view></div>
+
+  
+
+  <footer>
+    <div class="wrapper">
+      <div class="rights">
+        <p>My Personal Portfolio</a></p>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>    
+  </footer>
+
+
+  <script type="text/javascript" src="js/vendor/jquery.js"></script>
+  <script type="text/javascript" src="js/vendor/fancybox.js"></script>
+  <script type="text/javascript" src="js/vendor/fancybox-buttons.js"></script>
+  <script type="text/javascript" src="js/vendor/fancybox-media.js"></script>
+  <script type="text/javascript" src="js/vendor/fancybox-thumbs.js"></script>
+  <script type="text/javascript" src="js/vendor/wow.js"></script>
+  <script type="text/javascript" src="js/vendor/main.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="bower_components/hammerjs/hammer.min.js"></script>
+  <script src="bower_components/angular-material/angular-material.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="js/services/service.js"></script>
+  <script src="js/controllers/controller.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
