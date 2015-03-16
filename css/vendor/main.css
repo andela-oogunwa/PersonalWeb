@@ -387,7 +387,7 @@ header.dark nav ul li a:hover{
 
 /*    testimonials    */
 .testimonials{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .testimonials ul{
@@ -473,9 +473,8 @@ header.dark nav ul li a:hover{
 
 /*    blog posts    */
 .blog_posts{
-    margin-top: 100px;
     padding: 100px 0;
-    background: #fafafa;
+    background: #E5DBCF;
 }
 
 .blog_posts ul{
@@ -545,7 +544,7 @@ header.dark nav ul li a:hover{
 
 /*    footer    */
 footer{
-    padding: 35px 0;
+    padding: 10px 0;
     overflow: hidden;
 }
 
